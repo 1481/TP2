@@ -1,0 +1,13 @@
+{
+    "Prefix": "a",
+    "No": "003",
+    "Name": "c = a + b",
+    "Description": "輸入兩個整數a, b，然後輸出c\n每筆輸入有兩個整數a, b，其中 -1000000000≤a, b≤1000000000，輸出a+b。",
+    "Input": "1000 481\n-2000 519",
+    "Output": "1481\n-1481",
+    "TEST": {
+        "score": [100],
+        "input": ["input"],
+        "output": ["output"]
+    }
+}
