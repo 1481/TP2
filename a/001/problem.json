@@ -1,0 +1,13 @@
+{
+    "Prefix": "a",
+    "No": "001",
+    "Name": "Hello!",
+    "Description": "輸入一個字串S，然後輸出Hello, S!",
+    "Input": "Jacob\n1481",
+    "Output": "Hello, Jacob!\nHello, 1481!",
+    "TEST": {
+        "score": [100],
+        "input": ["input"],
+        "output": ["output"]
+    }
+}
