@@ -1,0 +1,13 @@
+{
+    "Prefix": "a",
+    "No": "002",
+    "Name": "Hello! - Advanced",
+    "Description": "輸入一個字串S，然後輸出Hello, S!\n注意：S可能包含有空格！",
+    "Input": "Jacob\nHSNU 1481",
+    "Output": "Hello, Jacob!\nHello, HSNU 1481!",
+    "TEST": {
+        "score": [100],
+        "input": ["input"],
+        "output": ["output"]
+    }
+}
