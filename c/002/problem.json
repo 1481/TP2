@@ -6,7 +6,7 @@
     "Input": "0 2 4\n1 4\n0 1\n100 7 10\n0 20\n0 15\n3 11\n1 9\n0 17\n0 8\n4 2",
     "Output": "21\n175",
     "TEST": {
-        "score": [100],
+        "score": [50, 50],
         "input": ["input/0", "input/1"],
         "output": ["output/0", "output/1"]
     }
