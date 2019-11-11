@@ -8,6 +8,7 @@
     "TEST": {
         "score": [50, 50],
         "input": ["input/0", "input/1"],
-        "output": ["output/0", "output/1"]
+        "output": ["output/0", "output/1"],
+        "script": "c002.js"
     }
 }
