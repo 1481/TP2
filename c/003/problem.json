@@ -2,12 +2,13 @@
     "Prefix": "c",
     "No": "003",
     "Name": "基因遺傳",
-    "Description": "生物老師麥腎最近在教學生基因遺傳，可是他的排列組合一直算不好，所以想請你寫個程式幫他計算各種配子產生的機率。\n每筆輸入有一行，該行有兩個字串a, b，其中a, b的字數都是偶數（因為每組基因皆為一對），例如：TtAa、IIUU、HhSSnnuU、LlOOvvee。",
-    "Input": "",
-    "Output": "",
+    "Description": "生物老師麥腎最近在教學生基因遺傳，可是他的排列組合一直算不好，所以想請你寫個程式幫他計算各種子代基因產生的機率。\n每筆輸入有一行，該行有兩個字串a, b，其中a, b的字數都是偶數（因為每組基因皆為一對），例如：TtAa、IIUU、HhSSnnuU、LlOOvvee，且a, b字數相同。\n以字典序輸出所有可能之子代基因組合及該組合出現之機率（以所有組合之組合數為分母），每行一組，以空格區分組合、機率。",
+    "Input": "AaBb AABB\nHhNnSSuu HHnnssUu\n",
+    "Output": "AABB 4\nAABb 4\nAaBB 4\nAaBb 4\nHHNnSsUu 32\nHHNnSsuu 32\nHHnnSsUu 32\nHHnnSsuu 32\nHhNnSsUu 32\nHhNnSsuu 32\nHhnnSsUu 32\nHhnnSsuu 32\n",
     "TEST": {
-        "score": [50, 50],
-        "input": ["input/0", "input/1"],
-        "output": ["output/0", "output/1"]
+        "type": "script",
+        "score": [100],
+        "input": ["input"],
+        "output": ["output"]
     }
 }
